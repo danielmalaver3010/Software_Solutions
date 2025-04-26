@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Solutions</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/main.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="logo-text">Software Solutions</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mission">Misión y Visión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section text-center py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-md-start">
+                    <h1 class="display-4 fw-bold text-primary">Software Solutions</h1>
+                    <p class="lead my-4">Transformamos ideas en soluciones digitales accesibles para microempresarios y emprendedores</p>
+                    <button class="btn btn-primary btn-lg">Contáctanos</button>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <i class="fas fa-laptop-code"></i>
+                            <div class="logo-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestros Servicios</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h5 class="card-title">Diseño Web</h5>
+                            <p class="card-text">Creamos sitios web atractivos y funcionales que representan perfectamente la identidad de su negocio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <h5 class="card-title">E-Commerce</h5>
+                            <p class="card-text">Desarrollamos tiendas en línea que facilitan la venta de productos y servicios para pequeños emprendedores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h5 class="card-title">Diseño Responsive</h5>
+                            <p class="card-text">Aseguramos que su sitio web funcione perfectamente en todos los dispositivos, mejorando la experiencia del usuario.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h5 class="card-title">SEO</h5>
+                            <p class="card-text">Optimizamos su sitio web para que sea encontrado fácilmente en los motores de búsqueda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h5 class="card-title">Marketing Digital</h5>
+                            <p class="card-text">Desarrollamos estrategias de marketing digital efectivas para aumentar la visibilidad de su negocio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h5 class="card-title">Soporte Técnico</h5>
+                            <p class="card-text">Ofrecemos soporte técnico permanente para garantizar el correcto funcionamiento de su plataforma digital.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="text-center mt-5 mb-4">Nuestros Proyectos</h3>
+            <div class="table-responsive">
+                <table id="projectsTable" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Proyecto</th>
+                            <th>Cliente</th>
+                            <th>Sector</th>
+                            <th>Duración</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tienda virtual para artesanías</td>
+                            <td>ArteSano</td>
+                            <td>Artesanías</td>
+                            <td>3 meses</td>
+                            <td><span class="badge bg-success">Completado</span></td>
+                        </tr>
+                        <tr>
+                            <td>Web para café local</td>
+                            <td>Café Aroma</td>
+                            <td>Gastronomía</td>
+                            <td>2 meses</td>
+                            <td><span class="badge bg-success">Completado</span></td>
+                        </tr>
+                        <tr>
+                            <td>Plataforma de reservas</td>
+                            <td>Spa Relax</td>
+                            <td>Bienestar</td>
+                            <td>4 meses</td>
+                            <td><span class="badge bg-warning text-dark">En progreso</span></td>
+                        </tr>
+                        <tr>
+                            <td>Web para panadería</td>
+                            <td>Pan Artesanal</td>
+                            <td>Alimentación</td>
+                            <td>1 mes</td>
+                            <td><span class="badge bg-success">Completado</span></td>
+                        </tr>
+                        <tr>
+                            <td>Catálogo de productos</td>
+                            <td>Moda Local</td>
+                            <td>Moda</td>
+                            <td>2 meses</td>
+                            <td><span class="badge bg-info">Planificación</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Quiénes Somos</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="/api/placeholder/600/400" alt="Equipo Software Solutions" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">En Software Solutions somos un equipo de profesionales apasionados por la tecnología y comprometidos con el crecimiento de microempresarios y emprendedores.</p>
+                    <p>Fundada en 2020, nuestra empresa nació con la misión de democratizar el acceso a soluciones digitales de calidad, poniendo al alcance de pequeños negocios herramientas tecnológicas que potencien su crecimiento.</p>
+                    <p>Contamos con un equipo multidisciplinario de desarrolladores, diseñadores, especialistas en UX/UI y consultores de marketing digital, todos comprometidos con la excelencia y la satisfacción del cliente.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card h-100">
+                        <img src="/api/placeholder/400/300" class="card-img-top" alt="Miembro del equipo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ana Martínez</h5>
+                            <p class="text-muted">Fundadora & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card h-100">
+                        <img src="/api/placeholder/400/300" class="card-img-top" alt="Miembro del equipo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Carlos Rodríguez</h5>
+                            <p class="text-muted">Director de Desarrollo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card h-100">
+                        <img src="/api/placeholder/400/300" class="card-img-top" alt="Miembro del equipo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Laura González</h5>
+                            <p class="text-muted">Diseñadora UX/UI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission and Vision Section -->
+    <section id="mission" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Misión y Visión</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="card h-100 mission-card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center mb-4">Nuestra Misión</h3>
+                            <p class="card-text">Democratizar el acceso a soluciones digitales de calidad para microempresarios y emprendedores, facilitando su transformación digital y potenciando su crecimiento en el mundo online.</p>
+                            <p class="card-text">Nos comprometemos a ofrecer servicios personalizados, accesibles y de alta calidad que respondan a las necesidades específicas de cada cliente, construyendo relaciones de confianza a largo plazo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 vision-card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center mb-4">Nuestra Visión</h3>
+                            <p class="card-text">Ser reconocidos como la empresa líder en el desarrollo de soluciones digitales para microempresarios y emprendedores, caracterizándonos por nuestra innovación, calidad y compromiso con el éxito de nuestros clientes.</p>
+                            <p class="card-text">Aspiramos a crear un ecosistema digital inclusivo donde cada pequeño negocio pueda aprovechar las ventajas de la tecnología para competir efectivamente en el mercado actual.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contáctenos</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="card contact-form-card">
+                        <div class="card-body">
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Asunto</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Información de Contacto</h5>
+                            <div class="d-flex mb-3">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <p class="mb-0">Av. Principal 123, Ciudad</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <p class="mb-0">+123 456 7890</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <p class="mb-0">info@softwaresolutions.com</p>
+                                </div>
+                            </div>
+                            <h5 class="mt-4 mb-3">Horario de Atención</h5>
+                            <div id="calendar"></div>
+                            <div class="social-icons mt-4 text-center">
+                                <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Software Solutions</h5>
+                    <p class="mb-0">Transformamos ideas en soluciones digitales</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Inicio</a></li>
+                        <li><a href="#services" class="text-white">Servicios</a></li>
+                        <li><a href="#about" class="text-white">Quiénes Somos</a></li>
+                        <li><a href="#contact" class="text-white">Contáctenos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Suscríbete a nuestro boletín</h5>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                        <button class="btn btn-primary" type="button">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Software Solutions. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/main.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
