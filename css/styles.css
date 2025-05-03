@@ -102,6 +102,14 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
+.team-card img, .about-team-card{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 /* Mission and Vision Cards */
 .mission-card, .vision-card {
     border: none;
@@ -123,6 +131,7 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Contact Form */
 .contact-form-card {
